@@ -1,0 +1,22 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "Chat app in node js using socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhinash16/chatApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhinash16/chatApp/issues"
+  },
+  "homepage": "https://github.com/Abhinash16/chatApp#readme",
+  "dependencies": {
+    "socket.io": "^2.2.0"
+  }
+}

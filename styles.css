@@ -1,0 +1,96 @@
+body {
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  .darker {
+    border-color: #ccc;
+    background-color: #ddd;
+  }
+  
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .time-right {
+    float: right;
+    color: #aaa;
+  }
+  
+  .time-left {
+    float: left;
+    color: #999;
+  }
+
+.head{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.head h1{
+    font-size: 20px;
+
+}
+  .overflow {
+    padding: 10px 10px 10px 10px;
+    border: 1px solid whitesmoke;
+    width: 100%;
+    max-height: 350px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  #send-container{
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+  }
+  #message-input{
+      padding: 30px 30px 30px 30px;
+      width: 80%;
+      height: 40%;
+  }
+  #send-button{
+    padding: 30px 40px 30px 40px;
+    margin-left: 20px;
+    text-align: center
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    #send-container{
+        position: fixed;
+        bottom: 330px;
+        width: 90%;
+        padding: 30px 10px 10px 10px;
+      }
+    #message-input{
+        padding: 15px 15px 15px 15px;
+        width: 60%
+    }
+    #send-button{
+      padding: 15px 40px 15px 25px;
+      margin-left: 10px;
+      text-align: center
+    }
+      .head{
+          display: none
+      }
+      .overflow {
+        padding: 10px 10px 10px 10px;
+        border: 1px solid whitesmoke;
+        width: 100%;
+        max-height: 330px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+      }
+  }
